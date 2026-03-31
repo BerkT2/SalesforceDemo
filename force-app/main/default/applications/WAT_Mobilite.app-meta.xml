@@ -2,10 +2,8 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <description>WAT Mobilite EV Şarj İstasyonu CRM ve Çağrı Merkezi Platformu</description>
-    <formFactors>
-        <formFactor>Large</formFactor>
-        <formFactor>Small</formFactor>
-    </formFactors>
+    <formFactors>Large</formFactors>
+    <formFactors>Small</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
@@ -23,5 +21,4 @@
     <tabs>standard-report</tabs>
     <tabs>standard-dashboard</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>WAT_Mobilite_UtilityBar</utilityBar>
 </CustomApplication>
