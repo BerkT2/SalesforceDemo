@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseStatus</fullName>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Yeni</fullName>
+        <default>true</default>
+        <label>Yeni</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>FLS</fullName>
+        <default>false</default>
+        <label>FLS</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>NOC</fullName>
+        <default>false</default>
+        <label>NOC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Service</fullName>
+        <default>false</default>
+        <label>Service</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

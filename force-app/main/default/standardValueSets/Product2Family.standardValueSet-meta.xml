@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product2Family</fullName>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AC</fullName>
+        <default>false</default>
+        <label>AC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DC</fullName>
+        <default>false</default>
+        <label>DC</label>
+    </standardValue>
+</StandardValueSet>

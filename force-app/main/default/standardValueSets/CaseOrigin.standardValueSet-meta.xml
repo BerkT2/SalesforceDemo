@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseOrigin</fullName>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-posta</fullName>
+        <default>false</default>
+        <label>E-posta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Center</fullName>
+        <default>false</default>
+        <label>Call Center</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sikayet Var</fullName>
+        <default>false</default>
+        <label>Şikayet Var</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sosyal Medya</fullName>
+        <default>false</default>
+        <label>Sosyal Medya</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hepsiburada</fullName>
+        <default>false</default>
+        <label>Hepsiburada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Amazon</fullName>
+        <default>false</default>
+        <label>Amazon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trendyol</fullName>
+        <default>false</default>
+        <label>Trendyol</label>
+    </standardValue>
+</StandardValueSet>
