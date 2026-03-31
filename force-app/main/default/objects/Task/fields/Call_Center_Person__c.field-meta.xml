@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Center_Person__c</fullName>
+    <label>Temsilci</label>
+    <type>Lookup</type>
+    <required>true</required>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Call Center Person Tasks</relationshipLabel>
+    <relationshipName>Call_Center_Person_Tasks</relationshipName>
+</CustomField>

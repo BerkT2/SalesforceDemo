@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Type__c</fullName>
+    <label>İş Emri Tipi</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Ücretlendirildi</fullName><default>false</default><label>Ücretlendirildi</label></value>
+            <value><fullName>Garanti İçi Servis</fullName><default>false</default><label>Garanti İçi Servis</label></value>
+            <value><fullName>Değişim</fullName><default>false</default><label>Değişim</label></value>
+            <value><fullName>İade Alındı</fullName><default>false</default><label>İade Alındı</label></value>
+            <value><fullName>Konsinye Ürün Verildi</fullName><default>false</default><label>Konsinye Ürün Verildi</label></value>
+            <value><fullName>Yedek Parça Bekleniyor</fullName><default>false</default><label>Yedek Parça Bekleniyor</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

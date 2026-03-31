@@ -1,0 +1,9 @@
+#Data Loader Field Mapping - Script
+#Encoding: UTF-8
+Related_Case_Reason__c=Related_Case_Reason__c
+Order_No__c=Order_No__c
+Question__c=Question__c
+Info_Note__c=Info_Note__c
+Guidance__c=Guidance__c
+Vehicle_Brand_Model__c=Vehicle_Brand_Model__c
+Unit_Type_Filter__c=Unit_Type_Filter__c

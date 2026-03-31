@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>İş Emri</label>
+    <pluralLabel>İş Emirleri</pluralLabel>
+    <nameField>
+        <label>İş Emri No</label>
+        <type>AutoNumber</type>
+        <displayFormat>WO-{0000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <description>Service work orders (Master-Detail to Case)</description>
+</CustomObject>

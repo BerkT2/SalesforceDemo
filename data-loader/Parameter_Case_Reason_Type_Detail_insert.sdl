@@ -1,0 +1,9 @@
+#Data Loader Field Mapping - Parameter (Case Reason Type Detail L3)
+#Encoding: UTF-8
+Name=Name
+RecordTypeId=RecordTypeId
+Related_Case_Reason_Type__c=Related_Case_Reason_Type__c
+Is_FLS_Eligible__c=Is_FLS_Eligible__c
+Is_Critical__c=Is_Critical__c
+Is_Service_Eligible__c=Is_Service_Eligible__c
+Related_User__c=Related_User__c

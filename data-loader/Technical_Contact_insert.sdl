@@ -1,0 +1,8 @@
+#Data Loader Field Mapping - Technical Contact
+#Encoding: UTF-8
+First_Name__c=First_Name__c
+Last_Name__c=Last_Name__c
+Email__c=Email__c
+Mobile__c=Mobile__c
+Related_Account__c=Related_Account__c
+Is_Active__c=Is_Active__c

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Socket_QR__c</fullName>
+    <label>Ünite QR</label>
+    <type>Text</type>
+    <formula>Related_Unit__r.Socket_Number_QR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+</CustomField>

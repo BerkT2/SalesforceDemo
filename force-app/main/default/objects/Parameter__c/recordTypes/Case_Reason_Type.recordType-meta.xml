@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason_Type</fullName>
+    <active>true</active>
+    <label>Başvuru Nedeni Tipi</label>
+    <description>Level 2 case reason type parameter</description>
+</RecordType>

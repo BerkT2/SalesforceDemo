@@ -1,0 +1,13 @@
+#Data Loader Field Mapping - Station Account
+#Encoding: UTF-8
+Name=Name
+ParentId=ParentId
+Usage_Type__c=Usage_Type__c
+Area_Type__c=Area_Type__c
+Working_Hours__c=Working_Hours__c
+Main_Operator__c=Main_Operator__c
+Customer_Channel__c=Customer_Channel__c
+BillingStreet=BillingStreet
+BillingCity=BillingCity
+BillingState=BillingState
+BillingPostalCode=BillingPostalCode

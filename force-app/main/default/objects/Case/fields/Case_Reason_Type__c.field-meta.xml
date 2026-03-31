@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason_Type__c</fullName>
+    <label>Başvuru Nedeni L2</label>
+    <type>Lookup</type>
+    <required>true</required>
+    <referenceTo>Parameter__c</referenceTo>
+    <relationshipLabel>Case Reason Type Cases</relationshipLabel>
+    <relationshipName>Case_Reason_Type_Cases</relationshipName>
+</CustomField>

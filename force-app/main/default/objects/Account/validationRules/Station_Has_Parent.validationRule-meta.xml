@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Has_Parent</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL($RecordType.DeveloperName, 'Station'), ISBLANK(ParentId))</errorConditionFormula>
+    <errorMessage>İstasyon kaydı için bir üst hesap (Parent Account) zorunludur.</errorMessage>
+</ValidationRule>

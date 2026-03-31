@@ -1,0 +1,10 @@
+#Data Loader Field Mapping - Bought Device
+#Encoding: UTF-8
+Name=Name
+Model__c=Model__c
+Bought_Channel__c=Bought_Channel__c
+Serial_No__c=Serial_No__c
+Warranty_Start_Date__c=Warranty_Start_Date__c
+Warranty_End_Date__c=Warranty_End_Date__c
+Device_Implement_Date__c=Device_Implement_Date__c
+Related_Account__c=Related_Account__c

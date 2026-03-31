@@ -1,0 +1,6 @@
+#Data Loader Field Mapping - Parameter (Case Reason Type L2)
+#Encoding: UTF-8
+Name=Name
+RecordTypeId=RecordTypeId
+Related_Case_Reason__c=Related_Case_Reason__c
+Related_User__c=Related_User__c

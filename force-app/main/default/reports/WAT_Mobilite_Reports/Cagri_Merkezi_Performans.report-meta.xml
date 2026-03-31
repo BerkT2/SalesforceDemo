@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAT_Mobilite_Reports/Cagri_Merkezi_Performans</fullName>
+    <description>Temsilci başına çağrı sayısı, süre, FLS oranı ve puan</description>
+    <format>Summary</format>
+    <name>Çağrı Merkezi Performansı</name>
+    <reportType>TasksAndActivities</reportType>
+    <showDetails>true</showDetails>
+    <columns>
+        <field>TASK.SUBJECT</field>
+    </columns>
+    <columns>
+        <field>TASK.OWNER</field>
+    </columns>
+    <columns>
+        <field>ACTIVITY_DATE</field>
+    </columns>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>TASK.OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+</Report>

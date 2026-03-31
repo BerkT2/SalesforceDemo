@@ -1,0 +1,12 @@
+#Data Loader Field Mapping - Station Unit
+#Encoding: UTF-8
+Name=Name
+Related_Station__c=Related_Station__c
+Unit_Type__c=Unit_Type__c
+Unit_Brand__c=Unit_Brand__c
+Unit_Power__c=Unit_Power__c
+Serial_No__c=Serial_No__c
+Model__c=Model__c
+Socket_Number_QR__c=Socket_Number_QR__c
+PYP_Code__c=PYP_Code__c
+Commissioning_Date__c=Commissioning_Date__c

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAT_Mobilite_Reports/Musteri_Segmenti_Raporu</fullName>
+    <description>Kanal bazında müşteri ve vaka dağılımı (TPS, CPO, Filo vb.)</description>
+    <format>Summary</format>
+    <name>Müşteri Segmenti Raporu</name>
+    <reportType>CaseList</reportType>
+    <showDetails>true</showDetails>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>ORIGIN</field>
+    </columns>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ORIGIN</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+</Report>

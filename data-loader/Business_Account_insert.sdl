@@ -1,0 +1,13 @@
+#Data Loader Field Mapping - Business Account
+#Encoding: UTF-8
+Name=Name
+Tax_Number_VKN__c=Tax_Number_VKN__c
+Tax_Office__c=Tax_Office__c
+Operator__c=Operator__c
+Customer_Channel__c=Customer_Channel__c
+Phone=Phone
+BillingStreet=BillingStreet
+BillingCity=BillingCity
+BillingState=BillingState
+BillingPostalCode=BillingPostalCode
+BillingCountry=BillingCountry

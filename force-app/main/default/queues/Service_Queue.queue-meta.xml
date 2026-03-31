@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Queue</fullName>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>service@wat-mobilite.com</email>
+    <label>Servis Kuyruğu</label>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

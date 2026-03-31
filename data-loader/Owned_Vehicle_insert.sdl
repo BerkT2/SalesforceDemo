@@ -1,0 +1,7 @@
+#Data Loader Field Mapping - Owned Vehicle
+#Encoding: UTF-8
+Name=Name
+Vehicle_Brand__c=Vehicle_Brand__c
+Vehicle_Model__c=Vehicle_Model__c
+Related_Account__c=Related_Account__c
+Hint__c=Hint__c

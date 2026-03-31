@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAT_Mobilite_Dashboards/WAT_Mobilite_Ana_Dashboard</fullName>
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorScheme>light</dashboardColorScheme>
+    <dashboardFilters>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>0</columnIndex>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+            <dashboardComponent>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <aggregate>Count</aggregate>
+                    <axisBinding>y</axisBinding>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <displayUnits>Auto</displayUnits>
+                <groupingColumn>STATUS</groupingColumn>
+                <header>Vaka Durumu Dağılımı</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>WAT_Mobilite_Reports/Vaka_Dagilim_Raporu</report>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Vaka Durumu</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+            <dashboardComponent>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <aggregate>Count</aggregate>
+                    <axisBinding>y</axisBinding>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <displayUnits>Auto</displayUnits>
+                <groupingColumn>Work_Order_Type__c</groupingColumn>
+                <header>İş Emri Tipi Dağılımı</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>WAT_Mobilite_Reports/Work_Order_Performans</report>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>İş Emri Tipleri</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>0</columnIndex>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+            <dashboardComponent>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <aggregate>Count</aggregate>
+                    <axisBinding>y</axisBinding>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <displayUnits>Auto</displayUnits>
+                <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <header>İstasyon Bazında Arıza Sayısı</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>WAT_Mobilite_Reports/Istasyon_Ariza_Analizi</report>
+                <showValues>true</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>İstasyon Arızaları</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+            <dashboardComponent>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <aggregate>Count</aggregate>
+                    <axisBinding>y</axisBinding>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <displayUnits>Auto</displayUnits>
+                <groupingColumn>ORIGIN</groupingColumn>
+                <header>Kanal Bazında Müşteri Dağılımı</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>WAT_Mobilite_Reports/Musteri_Segmenti_Raporu</report>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Müşteri Kanalları</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+        </dashboardGridComponents>
+    </dashboardGridLayout>
+    <isGridLayout>true</isGridLayout>
+    <numSubscribers>0</numSubscribers>
+    <runningUser>admin@wat-mobilite.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>WAT Mobilite Ana Dashboard</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

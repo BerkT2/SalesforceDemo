@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Brand_Model__c</fullName>
+    <label>Araç Marka/Model</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Ford</fullName><default>false</default><label>Ford</label></value>
+            <value><fullName>Renault</fullName><default>false</default><label>Renault</label></value>
+            <value><fullName>Togg</fullName><default>false</default><label>Togg</label></value>
+            <value><fullName>Tesla</fullName><default>false</default><label>Tesla</label></value>
+            <value><fullName>BYD</fullName><default>false</default><label>BYD</label></value>
+            <value><fullName>BMW</fullName><default>false</default><label>BMW</label></value>
+            <value><fullName>Mercedes</fullName><default>false</default><label>Mercedes</label></value>
+            <value><fullName>Volkswagen</fullName><default>false</default><label>Volkswagen</label></value>
+            <value><fullName>Hyundai</fullName><default>false</default><label>Hyundai</label></value>
+            <value><fullName>Kia</fullName><default>false</default><label>Kia</label></value>
+            <value><fullName>Volvo</fullName><default>false</default><label>Volvo</label></value>
+            <value><fullName>Peugeot</fullName><default>false</default><label>Peugeot</label></value>
+            <value><fullName>Citroen</fullName><default>false</default><label>Citroen</label></value>
+            <value><fullName>Fiat</fullName><default>false</default><label>Fiat</label></value>
+            <value><fullName>Cupra</fullName><default>false</default><label>Cupra</label></value>
+            <value><fullName>MG</fullName><default>false</default><label>MG</label></value>
+            <value><fullName>Tümü</fullName><default>false</default><label>Tümü</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
