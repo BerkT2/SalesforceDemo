@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_Type__c</fullName>
+    <label>Alan Tipi</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kapalı Alan</fullName>
+                <default>false</default>
+                <label>Kapalı Alan</label>
+            </value>
+            <value>
+                <fullName>Açık Alan</fullName>
+                <default>false</default>
+                <label>Açık Alan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

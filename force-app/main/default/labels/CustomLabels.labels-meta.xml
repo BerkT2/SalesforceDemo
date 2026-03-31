@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Case_Close_Reason_Required</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Case Close Reason Required</shortDescription>
+        <value>Kapanış nedeni zorunludur</value>
+    </labels>
+    <labels>
+        <fullName>Case_FLS_Not_Eligible</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Case FLS Not Eligible</shortDescription>
+        <value>Bu başvuru nedeni FLS atamasına uygun değildir</value>
+    </labels>
+    <labels>
+        <fullName>Case_Service_Not_Eligible</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Case Service Not Eligible</shortDescription>
+        <value>Bu başvuru nedeni servise atamaya uygun değildir</value>
+    </labels>
+    <labels>
+        <fullName>WO_Close_Note_Required</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Work Order Close Note Required</shortDescription>
+        <value>Kapanış notu zorunludur</value>
+    </labels>
+    <labels>
+        <fullName>Station_Open_Case_Warning</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Station Open Case Warning</shortDescription>
+        <value>Bu istasyonda açık vakalar bulunmaktadır</value>
+    </labels>
+    <labels>
+        <fullName>Duplicate_Case_Warning</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate Case Warning</shortDescription>
+        <value>Aynı başvuru nedenine sahip açık vaka mevcut</value>
+    </labels>
+    <labels>
+        <fullName>Script_No_Steps_Found</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Script No Steps Found</shortDescription>
+        <value>Bu başvuru nedeni için senaryo bulunamadı</value>
+    </labels>
+    <labels>
+        <fullName>Case_NOC_Not_Eligible</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Case NOC Not Eligible</shortDescription>
+        <value>Bu kayıt NOC ekibine atanamaz</value>
+    </labels>
+    <labels>
+        <fullName>Critical_Case_Alert_Subject</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Critical Case Alert Subject</shortDescription>
+        <value>KRİTİK VAKA ALERTİ</value>
+    </labels>
+    <labels>
+        <fullName>New_Case_Status</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>New Case Status</shortDescription>
+        <value>Yeni</value>
+    </labels>
+    <labels>
+        <fullName>FLS_Status</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>FLS Status Label</shortDescription>
+        <value>FLS</value>
+    </labels>
+    <labels>
+        <fullName>NOC_Status</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>NOC Status Label</shortDescription>
+        <value>NOC</value>
+    </labels>
+    <labels>
+        <fullName>Service_Status</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Service Status Label</shortDescription>
+        <value>Servis</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Status</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Closed Status Label</shortDescription>
+        <value>Kapalı</value>
+    </labels>
+    <labels>
+        <fullName>Cancelled_Status</fullName>
+        <language>tr</language>
+        <protected>false</protected>
+        <shortDescription>Cancelled Status Label</shortDescription>
+        <value>İptal Edildi</value>
+    </labels>
+</CustomLabels>

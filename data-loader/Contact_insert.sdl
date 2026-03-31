@@ -1,0 +1,8 @@
+#Data Loader Field Mapping - Contact
+#Encoding: UTF-8
+FirstName=FirstName
+LastName=LastName
+Email=Email
+MobilePhone=MobilePhone
+AccountId=AccountId
+Role__c=Role__c

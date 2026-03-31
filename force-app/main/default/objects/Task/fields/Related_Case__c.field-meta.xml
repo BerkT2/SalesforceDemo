@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Case__c</fullName>
+    <label>İlgili Vaka</label>
+    <type>Lookup</type>
+    <required>true</required>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Related Case Tasks</relationshipLabel>
+    <relationshipName>Related_Case_Tasks</relationshipName>
+</CustomField>

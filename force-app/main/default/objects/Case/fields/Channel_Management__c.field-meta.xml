@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Management__c</fullName>
+    <label>Kanal Yönetimi</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ford</fullName>
+                <default>false</default>
+                <label>Ford</label>
+            </value>
+            <value>
+                <fullName>OtoKoç</fullName>
+                <default>false</default>
+                <label>OtoKoç</label>
+            </value>
+            <value>
+                <fullName>TOFAŞ</fullName>
+                <default>false</default>
+                <label>TOFAŞ</label>
+            </value>
+            <value>
+                <fullName>Arçelik</fullName>
+                <default>false</default>
+                <label>Arçelik</label>
+            </value>
+            <value>
+                <fullName>WAT Mobilite</fullName>
+                <default>false</default>
+                <label>WAT Mobilite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Address__c</fullName>
+    <label>İstasyon Adresi</label>
+    <type>Text</type>
+    <formula>Case__r.Account.BillingStreet</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+</CustomField>

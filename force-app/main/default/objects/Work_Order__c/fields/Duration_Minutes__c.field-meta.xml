@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_Minutes__c</fullName>
+    <label>Süre (dk)</label>
+    <type>Number</type>
+    <formula>IF(NOT(ISBLANK(Appointment_Date__c)), 0, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <precision>18</precision>
+    <scale>0</scale>
+</CustomField>

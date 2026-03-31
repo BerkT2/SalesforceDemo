@@ -1,0 +1,10 @@
+#Data Loader Field Mapping - Person Account
+#Encoding: UTF-8
+FirstName=FirstName
+LastName=LastName
+PersonMobilePhone=PersonMobilePhone
+PersonEmail=PersonEmail
+PersonMailingStreet=PersonMailingStreet
+PersonMailingCity=PersonMailingCity
+Customer_Channel__c=Customer_Channel__c
+Operator__c=Operator__c

@@ -1,0 +1,43 @@
+<template>
+    <lightning-card title="Senaryo Adımları" icon-name="standard:question_feed">
+        <div class="slds-p-around_medium">
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Yükleniyor..." size="small"></lightning-spinner>
+            </template>
+            <template if:false={hasSteps}>
+                <template if:false={isLoading}>
+                    <p class="slds-text-color_weak">Bu başvuru nedeni için senaryo bulunamadı.</p>
+                </template>
+            </template>
+            <template if:true={hasSteps}>
+                <template for:each={scriptSteps} for:item="step">
+                    <div key={step.Id} class="slds-box slds-m-bottom_small">
+                        <div class="slds-grid slds-gutters">
+                            <div class="slds-col slds-size_1-of-12">
+                                <span class="slds-badge slds-badge_lightest">{step.Order_No__c}</span>
+                            </div>
+                            <div class="slds-col slds-size_11-of-12">
+                                <template if:true={step.Question__c}>
+                                    <p class="slds-text-heading_small slds-m-bottom_x-small">
+                                        <lightning-icon icon-name="utility:question" size="x-small" class="slds-m-right_x-small"></lightning-icon>
+                                        {step.Question__c}
+                                    </p>
+                                </template>
+                                <template if:true={step.Guidance__c}>
+                                    <p class="slds-text-color_success slds-m-bottom_x-small">
+                                        <strong>Yönlendirme:</strong> {step.Guidance__c}
+                                    </p>
+                                </template>
+                                <template if:true={step.Info_Note__c}>
+                                    <p class="slds-text-color_weak">
+                                        <strong>Not:</strong> {step.Info_Note__c}
+                                    </p>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

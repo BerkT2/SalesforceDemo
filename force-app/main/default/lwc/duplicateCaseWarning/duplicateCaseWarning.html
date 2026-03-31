@@ -1,0 +1,20 @@
+<template>
+    <template if:true={showWarning}>
+        <div class="slds-notify slds-notify_alert slds-alert_warning" role="alert">
+            <span class="slds-assistive-text">uyarı</span>
+            <span class="slds-icon_container slds-icon-utility-warning slds-m-right_x-small">
+                <lightning-icon icon-name="utility:warning" alternative-text="Uyarı" size="small" variant="warning"></lightning-icon>
+            </span>
+            <h2>
+                Bu istasyonda aynı başvuru nedenine sahip <strong>{duplicateCount}</strong> açık vaka bulunmaktadır.
+            </h2>
+            <div class="slds-m-top_x-small">
+                <template for:each={duplicateCases} for:item="dup">
+                    <a key={dup.Id} href={dup.url} target="_blank" class="slds-m-right_small">
+                        {dup.CaseNumber} - {dup.Subject} ({dup.Status})
+                    </a>
+                </template>
+            </div>
+        </div>
+    </template>
+</template>

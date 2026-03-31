@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason_Type_Detail</fullName>
+    <active>true</active>
+    <label>Başvuru Nedeni Tipi Detayı</label>
+    <description>Level 3 case reason type detail - drives FLS/Service/Critical flags</description>
+</RecordType>
