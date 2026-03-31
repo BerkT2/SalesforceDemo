@@ -65,7 +65,6 @@
         </dashboardGridComponents>
     </dashboardGridLayout>
     <isGridLayout>true</isGridLayout>
-    <numSubscribers>0</numSubscribers>
     <runningUser>admin@wat-mobilite.com</runningUser>
     <textColor>#000000</textColor>
     <title>WAT Mobilite Ana Dashboard</title>
