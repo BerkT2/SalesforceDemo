@@ -12,17 +12,10 @@
             <rowIndex>0</rowIndex>
             <rowSpan>4</rowSpan>
             <dashboardComponent>
-                <chartAxisRange>Auto</chartAxisRange>
-                <componentType>Bar</componentType>
-                <displayUnits>Auto</displayUnits>
-                <groupingColumn>STATUS</groupingColumn>
-                <header>Vaka Durumu Dağılımı</header>
-                <legendPosition>Bottom</legendPosition>
+                <componentType>Metric</componentType>
+                <header>Toplam Vaka Sayısı</header>
                 <report>WAT_Mobilite_Reports/Vaka_Dagilim_Raporu</report>
-                <showValues>true</showValues>
-                <sortBy>RowLabelAscending</sortBy>
                 <title>Vaka Durumu</title>
-                <useReportChart>false</useReportChart>
             </dashboardComponent>
         </dashboardGridComponents>
         <dashboardGridComponents>
@@ -31,17 +24,10 @@
             <rowIndex>0</rowIndex>
             <rowSpan>4</rowSpan>
             <dashboardComponent>
-                <chartAxisRange>Auto</chartAxisRange>
-                <componentType>Bar</componentType>
-                <displayUnits>Auto</displayUnits>
-                <groupingColumn>ORIGIN</groupingColumn>
-                <header>Kanal Bazında Müşteri Dağılımı</header>
-                <legendPosition>Bottom</legendPosition>
+                <componentType>Metric</componentType>
+                <header>Kanal Bazında Müşteri Sayısı</header>
                 <report>WAT_Mobilite_Reports/Musteri_Segmenti_Raporu</report>
-                <showValues>true</showValues>
-                <sortBy>RowLabelAscending</sortBy>
                 <title>Müşteri Kanalları</title>
-                <useReportChart>false</useReportChart>
             </dashboardComponent>
         </dashboardGridComponents>
         <dashboardGridComponents>
@@ -50,17 +36,22 @@
             <rowIndex>4</rowIndex>
             <rowSpan>4</rowSpan>
             <dashboardComponent>
-                <chartAxisRange>Auto</chartAxisRange>
-                <componentType>Bar</componentType>
-                <displayUnits>Auto</displayUnits>
-                <groupingColumn>ACCOUNT.NAME</groupingColumn>
-                <header>İstasyon Bazında Arıza Sayısı</header>
-                <legendPosition>Bottom</legendPosition>
+                <componentType>Metric</componentType>
+                <header>İstasyon Arıza Sayısı</header>
                 <report>WAT_Mobilite_Reports/Istasyon_Ariza_Analizi</report>
-                <showValues>true</showValues>
-                <sortBy>RowValueDescending</sortBy>
                 <title>İstasyon Arızaları</title>
-                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+            <dashboardComponent>
+                <componentType>Metric</componentType>
+                <header>SLA ve Kapatma</header>
+                <report>WAT_Mobilite_Reports/SLA_Kapatma_Suresi</report>
+                <title>SLA Durumu</title>
             </dashboardComponent>
         </dashboardGridComponents>
     </dashboardGridLayout>
