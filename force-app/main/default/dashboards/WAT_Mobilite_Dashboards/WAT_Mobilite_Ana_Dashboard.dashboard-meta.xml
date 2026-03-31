@@ -13,6 +13,11 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <componentType>Metric</componentType>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>66.0</indicatorBreakpoint2>
+                <indicatorHighColor>#54C254</indicatorHighColor>
+                <indicatorLowColor>#C25454</indicatorLowColor>
+                <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
                 <header>Toplam Vaka Sayısı</header>
                 <report>WAT_Mobilite_Reports/Vaka_Dagilim_Raporu</report>
                 <title>Vaka Durumu</title>
@@ -25,6 +30,11 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <componentType>Metric</componentType>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>66.0</indicatorBreakpoint2>
+                <indicatorHighColor>#54C254</indicatorHighColor>
+                <indicatorLowColor>#C25454</indicatorLowColor>
+                <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
                 <header>Kanal Bazında Müşteri Sayısı</header>
                 <report>WAT_Mobilite_Reports/Musteri_Segmenti_Raporu</report>
                 <title>Müşteri Kanalları</title>
@@ -37,6 +47,11 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <componentType>Metric</componentType>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>66.0</indicatorBreakpoint2>
+                <indicatorHighColor>#54C254</indicatorHighColor>
+                <indicatorLowColor>#C25454</indicatorLowColor>
+                <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
                 <header>İstasyon Arıza Sayısı</header>
                 <report>WAT_Mobilite_Reports/Istasyon_Ariza_Analizi</report>
                 <title>İstasyon Arızaları</title>
@@ -49,6 +64,11 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <componentType>Metric</componentType>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>66.0</indicatorBreakpoint2>
+                <indicatorHighColor>#54C254</indicatorHighColor>
+                <indicatorLowColor>#C25454</indicatorLowColor>
+                <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
                 <header>SLA ve Kapatma</header>
                 <report>WAT_Mobilite_Reports/SLA_Kapatma_Suresi</report>
                 <title>SLA Durumu</title>
