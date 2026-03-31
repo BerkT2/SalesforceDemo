@@ -13,10 +13,6 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <chartAxisRange>Auto</chartAxisRange>
-                <chartSummary>
-                    <aggregate>Count</aggregate>
-                    <axisBinding>y</axisBinding>
-                </chartSummary>
                 <componentType>Bar</componentType>
                 <displayUnits>Auto</displayUnits>
                 <groupingColumn>STATUS</groupingColumn>
@@ -36,10 +32,6 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <chartAxisRange>Auto</chartAxisRange>
-                <chartSummary>
-                    <aggregate>Count</aggregate>
-                    <axisBinding>y</axisBinding>
-                </chartSummary>
                 <componentType>Bar</componentType>
                 <displayUnits>Auto</displayUnits>
                 <groupingColumn>ORIGIN</groupingColumn>
@@ -59,10 +51,6 @@
             <rowSpan>4</rowSpan>
             <dashboardComponent>
                 <chartAxisRange>Auto</chartAxisRange>
-                <chartSummary>
-                    <aggregate>Count</aggregate>
-                    <axisBinding>y</axisBinding>
-                </chartSummary>
                 <componentType>Bar</componentType>
                 <displayUnits>Auto</displayUnits>
                 <groupingColumn>ACCOUNT.NAME</groupingColumn>

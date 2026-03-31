@@ -15,12 +15,12 @@
     <columns>
         <field>CLOSED_DATE</field>
     </columns>
-    <reportFilters>
+    <filter>
         <criteriaItems>
             <column>STATUS</column>
+            <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
             <value>Closed</value>
         </criteriaItems>
-        <language>en_US</language>
-    </reportFilters>
+    </filter>
 </Report>
