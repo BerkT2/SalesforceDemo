@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
     <description>İş Emirleri</description>
     <label>İş Emirleri</label>
     <motif>Custom74: Wrench</motif>
-    <sobjectName>Work_Order__c</sobjectName>
 </CustomTab>

@@ -14,10 +14,10 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Case</tabs>
-    <tabs>WAT_Station_Unit</tabs>
-    <tabs>WAT_Work_Order</tabs>
-    <tabs>WAT_Script</tabs>
-    <tabs>WAT_Parameter</tabs>
+    <tabs>Station_Unit__c</tabs>
+    <tabs>Work_Order__c</tabs>
+    <tabs>Script__c</tabs>
+    <tabs>Parameter__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-dashboard</tabs>
     <uiType>Lightning</uiType>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
     <description>Başvuru Nedeni Parametreleri</description>
     <label>Parametreler</label>
     <motif>Custom67: List</motif>
-    <sobjectName>Parameter__c</sobjectName>
 </CustomTab>
