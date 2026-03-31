@@ -111,12 +111,4 @@
         <object>Technical_Contact__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewAllData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ModifyAllData</name>
-    </userPermissions>
 </PermissionSet>

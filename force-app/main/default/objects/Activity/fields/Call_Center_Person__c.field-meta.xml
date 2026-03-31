@@ -3,8 +3,8 @@
     <fullName>Call_Center_Person__c</fullName>
     <label>Temsilci</label>
     <type>Lookup</type>
-    <required>true</required>
     <referenceTo>User</referenceTo>
     <relationshipLabel>Call Center Person Tasks</relationshipLabel>
     <relationshipName>Call_Center_Person_Tasks</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
 </CustomField>

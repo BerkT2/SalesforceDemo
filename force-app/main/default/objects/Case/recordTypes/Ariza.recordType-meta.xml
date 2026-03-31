@@ -3,4 +3,5 @@
     <fullName>Ariza</fullName>
     <active>true</active>
     <label>Arıza</label>
+    <businessProcess>WAT_Case_Process</businessProcess>
 </RecordType>

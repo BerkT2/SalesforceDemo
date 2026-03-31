@@ -3,8 +3,8 @@
     <fullName>Related_Case__c</fullName>
     <label>İlgili Vaka</label>
     <type>Lookup</type>
-    <required>true</required>
     <referenceTo>Case</referenceTo>
     <relationshipLabel>Related Case Tasks</relationshipLabel>
     <relationshipName>Related_Case_Tasks</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
 </CustomField>

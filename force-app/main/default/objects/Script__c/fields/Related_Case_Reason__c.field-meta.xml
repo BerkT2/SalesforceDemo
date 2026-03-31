@@ -5,5 +5,5 @@
     <type>Lookup</type>
     <referenceTo>Parameter__c</referenceTo>
     <relationshipName>Scripts</relationshipName>
-    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
 </CustomField>

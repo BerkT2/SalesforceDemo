@@ -3,8 +3,8 @@
     <fullName>Case_Reason__c</fullName>
     <label>Başvuru Nedeni L1</label>
     <type>Lookup</type>
-    <required>true</required>
     <referenceTo>Parameter__c</referenceTo>
     <relationshipLabel>Case Reason Cases</relationshipLabel>
     <relationshipName>Case_Reason_Cases</relationshipName>
+    <deleteConstraint>Restrict</deleteConstraint>
 </CustomField>
