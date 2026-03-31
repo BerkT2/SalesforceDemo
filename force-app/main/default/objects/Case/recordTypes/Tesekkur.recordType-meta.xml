@@ -3,4 +3,5 @@
     <fullName>Tesekkur</fullName>
     <active>true</active>
     <label>Teşekkür</label>
+    <businessProcess>WAT_Case_Process</businessProcess>
 </RecordType>

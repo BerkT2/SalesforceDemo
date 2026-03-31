@@ -2,7 +2,7 @@
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>WAT_Mobilite_Reports/Kapatma_Neden_Analizi</fullName>
     <description>Kapatma nedenine göre kapalı vakalar dökümü</description>
-    <format>Summary</format>
+    <format>Tabular</format>
     <name>Kapatma Neden Analizi</name>
     <reportType>CaseList</reportType>
     <showDetails>true</showDetails>
@@ -15,16 +15,12 @@
     <columns>
         <field>CLOSED_DATE</field>
     </columns>
-    <filters>
+    <reportFilters>
         <criteriaItems>
             <column>STATUS</column>
             <operator>equals</operator>
             <value>Closed</value>
         </criteriaItems>
-    </filters>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Close_Reason__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
+        <language>en_US</language>
+    </reportFilters>
 </Report>

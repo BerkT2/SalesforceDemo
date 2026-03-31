@@ -3,7 +3,7 @@
     <fullName>Service_Queue</fullName>
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>service@wat-mobilite.com</email>
-    <label>Servis Kuyruğu</label>
+    <name>Servis Kuyruğu</name>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

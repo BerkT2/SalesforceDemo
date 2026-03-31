@@ -13,7 +13,7 @@
         <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
-        <field>ORIGIN</field>
+        <field>CREATED_DATE</field>
     </columns>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>

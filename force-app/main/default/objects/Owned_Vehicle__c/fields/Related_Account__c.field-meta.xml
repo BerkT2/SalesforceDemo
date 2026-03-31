@@ -5,5 +5,5 @@
     <type>Lookup</type>
     <referenceTo>Account</referenceTo>
     <relationshipName>Owned_Vehicles</relationshipName>
-    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
 </CustomField>

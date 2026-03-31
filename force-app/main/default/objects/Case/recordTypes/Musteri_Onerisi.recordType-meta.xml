@@ -3,4 +3,5 @@
     <fullName>Musteri_Onerisi</fullName>
     <active>true</active>
     <label>Müşteri Önerisi</label>
+    <businessProcess>WAT_Case_Process</businessProcess>
 </RecordType>

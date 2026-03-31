@@ -10,9 +10,6 @@
         <field>CASE_NUMBER</field>
     </columns>
     <columns>
-        <field>STATUS</field>
-    </columns>
-    <columns>
         <field>CREATED_DATE</field>
     </columns>
     <columns>

@@ -3,7 +3,7 @@
     <fullName>FLS_Queue</fullName>
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>fls@wat-mobilite.com</email>
-    <label>FLS Kuyruğu</label>
+    <name>FLS Kuyruğu</name>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

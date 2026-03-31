@@ -10,22 +10,11 @@
         <field>CASE_NUMBER</field>
     </columns>
     <columns>
-        <field>RECORDTYPE</field>
-    </columns>
-    <columns>
-        <field>STATUS</field>
-    </columns>
-    <columns>
         <field>ORIGIN</field>
     </columns>
     <columns>
         <field>CREATED_DATE</field>
     </columns>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>RECORDTYPE</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>STATUS</field>

@@ -5,5 +5,5 @@
     <type>Lookup</type>
     <referenceTo>Account</referenceTo>
     <relationshipName>Member_Cards</relationshipName>
-    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
 </CustomField>

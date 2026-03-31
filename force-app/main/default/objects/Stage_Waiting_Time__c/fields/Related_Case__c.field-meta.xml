@@ -5,5 +5,5 @@
     <type>Lookup</type>
     <referenceTo>Case</referenceTo>
     <relationshipName>Stage_Waiting_Times</relationshipName>
-    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
 </CustomField>

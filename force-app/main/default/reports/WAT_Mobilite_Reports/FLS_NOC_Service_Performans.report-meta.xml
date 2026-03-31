@@ -10,16 +10,8 @@
         <field>CASE_NUMBER</field>
     </columns>
     <columns>
-        <field>STATUS</field>
+        <field>CREATED_DATE</field>
     </columns>
-    <columns>
-        <field>OWNER</field>
-    </columns>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>OWNER</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>STATUS</field>

@@ -3,7 +3,7 @@
     <fullName>NOC_Queue</fullName>
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>noc@wat-mobilite.com</email>
-    <label>NOC Kuyruğu</label>
+    <name>NOC Kuyruğu</name>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>
