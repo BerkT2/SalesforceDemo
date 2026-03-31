@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>WAT Mobilite Utility Bar</description>
+    <flexiPageRegions>
+        <name>utility</name>
+        <type>Append</type>
+    </flexiPageRegions>
+    <masterLabel>WAT Mobilite UtilityBar</masterLabel>
+    <template>
+        <name>utilities</name>
+    </template>
+    <type>UtilityBar</type>
+</FlexiPage>
